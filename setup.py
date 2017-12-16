@@ -10,12 +10,12 @@ def read(fname):
 
 setup(
     name = "getport",
-    version = "0.1.0",
+    version = "0.1.2",
     author = "meta Z",
     author_email = "zycode277@gmail.com",
     description = "get available port on your computer",
     license = "MIT",
     long_description=read('README.rst'),
-    packages=[],
+    packages=['getport'],
     url='https://github.com/whatArePeopleDownloading/getport'
 )
